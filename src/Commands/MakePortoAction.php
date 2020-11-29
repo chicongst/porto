@@ -67,7 +67,7 @@ class MakePortoAction extends Command
         }
         $this->makeDirectory($path);
 
-        $stubPath = config('config-porto.generator.stub', __DIR__.'/../stubs/action.stub');
+        $stubPath = config('config-porto.generator.action-stub', __DIR__.'/../stubs/action.stub');
 
         if (! $this->files->exists($stubPath) || ! is_readable($stubPath)) {
             $this->error(sprintf('File "%s" does not exist or is unreadable.', $stubPath));

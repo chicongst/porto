@@ -23,6 +23,7 @@ return [
     |
     */
     'generator' => [
-        'stub' => app_path('stubs/action.stub')
+        'action-stub' => app_path('stubs/action.stub'),
+        'task-stub' => app_path('stubs/task.stub')
     ]
 ];
