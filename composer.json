@@ -1,6 +1,7 @@
 {
     "name": "chicongst/porto",
     "description": "Easy to make Action and Task",
+    "license": "MIT",
     "keywords": [
         "laravel",
         "porto"
