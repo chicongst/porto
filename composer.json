@@ -1,0 +1,27 @@
+{
+    "name": "chicongst/porto",
+    "description": "Easy to make Action and Task",
+    "keywords": [
+        "laravel",
+        "porto"
+    ],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "chicongst",
+            "email": "cong.nd@neo-lab.vn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Chicongst\\Porto\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chicongst\\Porto\\ServiceProvider"
+            ]
+        }
+    }
+}
