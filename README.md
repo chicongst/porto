@@ -15,7 +15,8 @@ You may want to save the root of your project folder out of the app and add anot
 ```php
     'namespace'=> 'App\\Containers\\',
     'generator'=>[
-        'stub' => app_path('stubs/action.stub')
+        'action-stub' => app_path('stubs/action.stub'),
+        'task-stub' => app_path('stubs/task.stub')
     ]
 ```
 
